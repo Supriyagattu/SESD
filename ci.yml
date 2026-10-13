@@ -16,7 +16,7 @@ jobs:
         run: test -f index.html
 
       - name: Test Website Heading
-        run: grep -q "Welcome to My College" index.html
+        run: grep -q "Welcome to SR UNIVERSITY" index.html
 
       - name: Show Success
         run: echo "All tests passed!"
